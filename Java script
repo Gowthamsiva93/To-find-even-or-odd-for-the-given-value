@@ -1,0 +1,17 @@
+function check(n){
+
+if(isNaN(n)==true){
+console.log("Please enter the valid number")
+}
+else if(n%2==0||n===0){
+
+console.log("The number is even")
+}
+else if(n%2!=0){
+console.log("The number is odd")
+}
+else{
+console.log("Please enter the valid number")
+}
+}
+check(undefined)
